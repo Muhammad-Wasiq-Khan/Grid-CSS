@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: beige;
+    align-items: center;
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* .logo {
+    grid-column: 1 / span 2;
+} */
+
+.btns .home {
+    grid-column: 2 / span 1;
+}
+
+button {
+    justify-content: end;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+}
